@@ -1,0 +1,172 @@
+/*
+
+	Author: Huda Ahmed
+	Date: 08/04/2024
+	Filename: lake_styles.css
+*/
+
+
+Body{
+	background-color:#7BA8C0;
+	font-family: sans-serif;
+
+}
+
+Section{
+height: 1125px;
+}
+Section p {
+	padding-right: 20px;
+	padding-left: 40px;
+}
+
+a {
+  color: #FFFDF1;
+	
+}
+
+
+nav {
+    background-color: #183642;
+	padding-bottom: 10px;	
+	
+}
+
+Nav a:link{
+ text-decoration: none;	
+	padding-top: 10px;
+}
+Nav a:hover{
+	color: green;
+}
+
+Nav a:visited{
+	color: #FFFDF1;
+}
+
+Nav a:active{
+	color: black;
+}
+
+H1,h2,h3{
+Font-family: serif;
+}
+
+
+
+#leftcol {
+	background-color: #DDD8C4;
+
+}
+#rightcol {
+	background-color: #6D4C3D;
+
+}
+
+Footer{
+	background-color: #183642;
+	Color:white;
+	Text-align: center;
+	Padding: 15px 15px;
+	
+	
+}
+
+h1{
+	padding-left:30px;
+}
+
+H1{
+	visibility: hidden;
+}
+
+H1:after{
+	visibility: visible;
+	content: 'The Great Lakescape Lodge';
+	display: block;
+	font-family: papyrus;
+	font-size: 45px;
+
+}
+
+#leftcol img:nth-of-type(1){
+	padding-left:30px;
+
+}
+
+#rightcol li:first-child{
+	font-weight: bold;
+}
+
+
+#rightcol H2{
+	Color:#DED8C2;
+	padding-left: 20px;
+	font-size: 30px;
+}
+
+#rightcol a{
+ text-decoration: none;	
+	
+}
+
+#rightcol a:hover{
+	color: pink;
+}
+
+#rightcol a:visited{
+	color: #FFFDF1;
+}
+
+#rightcol a:active{
+	color: black;
+}
+
+
+
+
+
+Blockquote{
+	color:#FFFDE6;
+}
+#rightcol ul {
+	list-style-type: none;
+}
+
+
+#notes{
+	background-color:#00A676;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	border: solid 1px;
+	list-style-type: square;
+	
+}
+#notes li{
+	list-style-type: square;
+}
+#notes h2{
+	padding-left: 15px;
+}
+
+#events{
+	background-color: #7D8CC4;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	border: solid 1px;	
+}
+
+
+
+#rightcol{
+	width: 100%;
+	float: right;
+	padding: 1%;   
+	
+}
+
+
